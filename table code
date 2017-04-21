@@ -1,0 +1,33 @@
+TABLE
+
+table = table
+tr = table row (row)
+td = table data (cell)
+th = table header (cell)
+thead = table header (section)
+tbody = table body (section)
+<table>
+	<thead>
+		<tr>
+			<th>Name of the First header</th>
+			<th>Name of the Second Header</th>
+			<th>Name of the Third Header</th>
+			<th>Name of the Fourth Header</th>
+			<th>Name of the Fifth Header</th>
+			<th>Name of the Sixth Header</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Data point goes here</td>
+			<td>Data point goes here</td>
+			<td>Another data point</td>
+			<td>Another data point</td>
+			<td>One more data point</td>
+			<td>last data point in row</td>
+		</tr>
+		<tr>
+
+		</tr>
+	</tbody>
+</table>
