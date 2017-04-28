@@ -1,0 +1,136 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	color: #f0efef;
+	font-size: 26px;
+	line-height: 1.4;
+	font-family: 'Open sans', Helvetica, sans-serif;
+	font-weight: 300;
+}
+
+a {
+	text-decoration: none;
+}
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.hero {
+	min-height: 700px;
+	padding-top: 32px;
+}
+
+.header_img {
+	margin: 0 auto;
+	background-size: cover;
+	position: absolute;
+}
+
+.logo_header {
+ 	color: white;
+ 	font-weight: 600;
+ 	position: relative;
+
+}
+
+.motto {
+	text-align: center;
+	font-size: 40px;
+	font-weight: 600;
+	position: relative;
+	margin: 120px 0 90px;
+
+
+}
+
+.btn {
+	position: relative;
+	border-radius: 5px;
+	width: 280px;
+	font-size: 28px;
+	font-weight: 800;
+	display: block;
+	background: yellow;
+	text-align: center;
+	color: #033048;
+	padding: 15px;
+	margin: 0 auto;
+
+}
+
+.benefits {
+	padding: 100px 0 80px;
+	color: #535559
+}
+
+.benefits h1 {
+	font-size: 36px;
+	font-weight: 600;
+	color:#021742;
+
+}
+
+.quote {
+	font-size: 28px;
+	font-style: italic;
+	text-align: center;
+	position: relative;
+
+}
+
+.testimonial_img {
+	position: absolute;
+
+}
+
+.author {
+	font-style: bold
+
+}
+
+.sign_up {
+	background: yellow;
+	padding: 15px;
+
+}
+
+.sign_up_btn {
+	border-radius: 5px;
+	width: 280px;
+	font-size: 28px;
+	font-weight: 600;
+	display: block;
+	background: #021742;
+	text-align: center;
+	margin: 0 auto;
+
+
+}
+
+.footer {
+	background: #1b1f26;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.footer a {
+	color: white;
+}
+
+.footer a:hover {
+    color: yellow;
+}
+
+.footer h1 {
+	font-size: 50px;
+	font-weight: bold;
+	color: yellow;
+}
+
