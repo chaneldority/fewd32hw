@@ -1,0 +1,187 @@
+body {
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+	background: #FFF;
+	color: #444;
+}
+
+.main_menu .footer_menu {
+	list-style: none;
+}
+
+
+a {
+	color: #D00;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #A00;
+}
+
+img {
+	max-width: 100%;
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 960px;
+}
+
+
+h1 {
+	font-size: 2em;
+}
+
+.logo {
+	display: inline;
+	font-size: 3em;
+	font-weight: normal;
+	color: #d00;
+	margin-right: 15px;
+}
+
+.tagline {
+	font-size: 1.5em;
+	font-weight: normal;
+	color: #888;
+	margin-bottom: .5em;
+	margin: 0 auto;
+	display: inline;
+	padding-left: 15px;
+}
+.main_menu {
+	margin:0;
+	padding: 0;
+	background:black;
+}
+.main_menu a {
+    display: block;
+    font-size: 1.25em;
+    color: white;
+    background: black;
+    margin-right: 1px;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.main_menu a:hover {
+	background: #A00;
+}
+
+
+.main_menu li {
+    float: left;
+    width: 16.5%;
+    margin: 0;
+    padding: 0;
+}
+
+.main_menu li, .footer_menu li {
+    display: inline-block;
+}
+
+.main_content {
+	display:block;
+	overflow: hidden;
+	clear:both;
+}
+
+.body_articles {
+	width: 600px;
+	float: left;
+	margin: 0px 30px 0px 0px;
+
+}
+
+.body_articles p::first-letter { 
+    font-size: 600%;
+    color: #CCC;
+    float: left;
+    line-height: 80px;
+    padding: 0 10px 10px 0px;
+
+}
+
+.article_date {
+	color: #CCC;
+	font-weight: normal;
+}
+
+.article_title {
+	font-weight: normal;
+	padding: 0;
+}
+
+.article_title a {
+	color: black;
+}
+
+.article_title a:hover {
+	color: #A00;
+}
+
+.view_more {
+	text-align: right;
+	font-weight: bold;
+}
+
+.article_blurb {
+    border-bottom: 1px solid #DDD;
+    margin: 3em 0;
+    padding-bottom: 1.5em;
+}
+
+
+.right_rail {
+	width: 300px;
+	float: left;
+	margin-top: 6em;
+	color: #888
+}
+
+.right_rail li {
+    margin: 0 0 0 40px
+}
+
+.about_us {
+	border-bottom: 1px solid #DDD;
+	padding: 20px 0;
+}
+
+.ad_box {
+	border-bottom: 1px solid #DDD;
+	padding: 20px 0;
+}
+
+.popular_posts {
+	border-bottom: 1px solid #DDD;
+	padding: 20px 0;
+}
+
+
+.footer {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.footer_menu p, li {
+	color: #bbb;
+}
+
+
+.footer_menu, ol, ul {
+    padding: 0;
+}
+
+.footer_menu li::after {
+	content: ' | ';
+	}
+
+.copyright {
+	color: #bbb;
+}
+
